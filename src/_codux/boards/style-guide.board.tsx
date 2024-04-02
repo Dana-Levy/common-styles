@@ -27,15 +27,7 @@ export default createBoard({
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div className={StyleGuide_board_module.FontFamilyContainer}>
                         <span className={StyleGuide_board_module.FontFamilyAa}>Aa</span>
-                        <span>Open Sans</span>
-                    </div>
-                    <div className={StyleGuide_board_module.FontFamilyContainer}>
-                        <span className={StyleGuide_board_module.FontFamilyAa}>Aa</span>
-                        <span>Open Sans</span>
-                    </div>
-                    <div className={StyleGuide_board_module.FontFamilyContainer}>
-                        <span className={StyleGuide_board_module.FontFamilyAa}>Aa</span>
-                        <span>Open Sans</span>
+                        <span className={Classnames('pNormal')}>Open Sans</span>
                     </div>
                 </div>
             </div>
@@ -43,11 +35,19 @@ export default createBoard({
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Main Heading / h1</h2>
                 <div className={StyleGuide_board_module.grid}>
                     <div>
+                        <h1 className={Classnames('h1Bold', StyleGuide_board_module.margin)}>
+                            Heading 42
+                        </h1>
+                        <span className={StyleGuide_board_module.subtitleValue}>
+                            h1Bold - DM Sans, 700
+                        </span>
+                    </div>
+                    <div>
                         <h1 className={Classnames('h1Normal', StyleGuide_board_module.margin)}>
                             Heading 42
                         </h1>
                         <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - Normal{' '}
+                            h1Normal - DM Sans, 400
                         </span>
                     </div>
                     <div>
@@ -55,26 +55,26 @@ export default createBoard({
                             Heading 42
                         </h1>
                         <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - light{' '}
-                        </span>
-                    </div>
-                    <div>
-                        <h1 className={Classnames('h1Bold', StyleGuide_board_module.margin)}>
-                            Heading 42
-                        </h1>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - Bold{' '}
+                            h1Light - DM Sans, 300
                         </span>
                     </div>
                 </div>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Subheading / h2</h2>
                 <div className={StyleGuide_board_module.grid}>
                     <div>
+                        <h2 className={Classnames('h2Bold', StyleGuide_board_module.margin)}>
+                            Heading 28
+                        </h2>
+                        <span className={StyleGuide_board_module.subtitleValue}>
+                            h2Bold - DM Sans, 700
+                        </span>
+                    </div>
+                    <div>
                         <h2 className={Classnames('h2Normal', StyleGuide_board_module.margin)}>
                             Heading 28
                         </h2>
                         <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - Normal{' '}
+                            h2Normal - DM Sans, 400
                         </span>
                     </div>
                     <div>
@@ -82,53 +82,53 @@ export default createBoard({
                             Heading 28
                         </h2>
                         <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - light{' '}
-                        </span>
-                    </div>
-                    <div>
-                        <h2 className={Classnames('h2Bold', StyleGuide_board_module.margin)}>
-                            Heading 28
-                        </h2>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - Bold{' '}
+                            h2Light - DM Sans, 300
                         </span>
                     </div>
                 </div>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Body / p</h2>
                 <div className={StyleGuide_board_module.grid}>
                     <div>
+                        <p className={Classnames('pBold', StyleGuide_board_module.margin)}>
+                            Paragraph 12
+                        </p>
+                        <span className={StyleGuide_board_module.subtitleValue}>
+                            pBold - DM Sans, 700
+                        </span>
+                    </div>
+                    <div>
                         <p className={Classnames('pNormal', StyleGuide_board_module.margin)}>
                             Paragraph 12
                         </p>
                         <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - Normal{' '}
+                            pNormal - DM Sans, 400
                         </span>
                     </div>
                     <div>
                         <p className={Classnames('pLight', StyleGuide_board_module.margin)}>
                             Paragraph 12
                         </p>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
-                            Open Sans - light{' '}
-                        </span>
-                    </div>
-                    <div>
-                        <p className={Classnames('pBold', StyleGuide_board_module.margin)}>
-                            Paragraph 12
-                        </p>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
-                            Open Sans - Bold{' '}
+                        <span className={StyleGuide_board_module.subtitleValue}>
+                            pLight - DM Sans, 300
                         </span>
                     </div>
                 </div>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Smaller Text</h2>
                 <div className={StyleGuide_board_module.grid}>
                     <div>
+                        <p className={Classnames('smallBold', StyleGuide_board_module.margin)}>
+                            Detail Text 11
+                        </p>
+                        <span className={StyleGuide_board_module.subtitleValue}>
+                            smallBold - DM Sans, 700
+                        </span>
+                    </div>
+                    <div>
                         <p className={Classnames('smallNormal', StyleGuide_board_module.margin)}>
                             Detail Text 11
                         </p>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
-                            Open Sans - Normal{' '}
+                        <span className={StyleGuide_board_module.subtitleValue}>
+                            smallNormal - DM Sans, 400
                         </span>
                     </div>
                     <div>
@@ -136,15 +136,7 @@ export default createBoard({
                             Detail Text 11
                         </p>
                         <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - light{' '}
-                        </span>
-                    </div>
-                    <div>
-                        <p className={Classnames('smallBold', StyleGuide_board_module.margin)}>
-                            Detail Text 11
-                        </p>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            Open Sans - Bold{' '}
+                            smallLight - DM Sans, 300
                         </span>
                     </div>
                 </div>
