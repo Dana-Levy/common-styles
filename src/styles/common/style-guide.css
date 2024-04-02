@@ -8,6 +8,7 @@
 
 .h1Light {
   font: var(--h1Light);
+  font-family: Arial, sans-serif;
 }
 .h1Bold {
   font: var(--h1Bold);
@@ -58,6 +59,5 @@
   background-color: var(--b30);
 }
 .b40 {
-    background-color: var(--b40);
-
+  background-color: var(--b40);
 }
