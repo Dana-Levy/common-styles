@@ -8,7 +8,6 @@
 
 .h1Light {
   font: var(--h1Light);
-
 }
 .h1Bold {
   font: var(--h1Bold);
@@ -60,4 +59,6 @@
 }
 .b40 {
   background-color: var(--b40);
+}
+.b10 {
 }

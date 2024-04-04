@@ -141,6 +141,92 @@ export default createBoard({
                     </div>
                 </div>
             </div>
+            <div className={StyleGuide_board_module.SectionContainer}>
+                <div className={StyleGuide_board_module.SectionTitle}>
+                    <img src="/src/assets/react.svg" />
+                    <h2>Colors</h2>
+                </div>
+                <p className={StyleGuide_board_module.SectionSubtitle}>
+                    Colors are a powerful tool in design for communicating meaning and influencing
+                    user perception. Here&apos;s colors can contribute to the success of your design
+                    by conveying specific
+                </p>
+            </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Font Family</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     ),
     isSnippet: true,
