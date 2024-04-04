@@ -3,6 +3,7 @@ import '../../styles/common/style-guide.css';
 import { createBoard } from '@wixc3/react-board';
 import StyleGuide_board_module from './style-guide.board.module.scss';
 import Classnames from 'classnames';
+import SectionSvg from '../../assets/section.svg';
 
 export default createBoard({
     name: 'StyleGuide',
@@ -14,7 +15,7 @@ export default createBoard({
             </div>
             <div className={StyleGuide_board_module.SectionContainer}>
                 <div className={StyleGuide_board_module.SectionTitle}>
-                    <img src="/src/assets/react.svg" />
+                    <img src={SectionSvg} />
                     <h2>Typography</h2>
                 </div>
                 <p className={StyleGuide_board_module.SectionSubtitle}>
