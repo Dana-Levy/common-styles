@@ -71,6 +71,20 @@
   background-color: var(--d30);
 }
 .d40 {
-    background-color: var(--d40);
-
+  background-color: var(--d40);
+}
+.w10 {
+  background-color: var(--w10);
+}
+.w20 {
+  background-color: var(--w20);
+}
+.w30 {
+  background-color: var(--w30);
+}
+.w40 {
+  background-color: var(--w40);
+}
+.w50 {
+  background-color: var(--w50);
 }

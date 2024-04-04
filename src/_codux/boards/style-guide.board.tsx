@@ -238,6 +238,59 @@ export default createBoard({
                         </div>
                     </div>
                 </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Warning </h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w10
+                            <br />
+                            #FEF4E9
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w20')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w20
+                            <br />
+                            #FCD0A0
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w30')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w30
+                            <br />
+                            ##FABF7A
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w40')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w40
+                            <br />
+                            #2B2B31{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w50')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w40
+                            <br />
+                            #AA661E{' '}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     ),
