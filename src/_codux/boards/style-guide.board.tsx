@@ -344,6 +344,59 @@ export default createBoard({
                         </div>
                     </div>
                 </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Success</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s0
+                            <br />
+                            #E8F8F1
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's20')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s20
+                            <br />
+                            #9FE1C2
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's30')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s30
+                            <br />
+                            #76D6AB
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's40')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s40
+                            <br />
+                            #76D6AB{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's50')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s50
+                            <br />
+                            #0F804E{' '}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     ),
@@ -351,7 +404,7 @@ export default createBoard({
     environmentProps: {
         windowWidth: 1014,
         canvasWidth: 1021,
-        canvasHeight: 1656,
+        canvasHeight: 2005.3333333333333,
         windowHeight: 1659,
     },
 });
