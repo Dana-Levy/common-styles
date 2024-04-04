@@ -167,62 +167,32 @@ export default createBoard({
                     </div>
                     <div>
                         <div
-                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b20')}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            b10
+                            b20
                             <br />
-                            #F0F5FF
+                            #2F6FED
                         </div>
                     </div>
                     <div>
                         <div
-                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b30')}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            b10
+                            b30
                             <br />
-                            #F0F5FF
+                            #1D5BD6
                         </div>
                     </div>
                     <div>
                         <div
-                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b40')}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            b10
+                            b40
                             <br />
-                            #F0F5FF
-                        </div>
-                    </div>
-                    <div>
-                        <div
-                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
-                        />
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            b10
-                            <br />
-                            #F0F5FF
-                        </div>
-                    </div>
-                    <div>
-                        <div
-                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
-                        />
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            b10
-                            <br />
-                            #F0F5FF
-                        </div>
-                    </div>
-                    <div>
-                        <div
-                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
-                        />
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            b10
-                            <br />
-                            #F0F5FF
+                            #1E4EAE{' '}
                         </div>
                     </div>
                 </div>
