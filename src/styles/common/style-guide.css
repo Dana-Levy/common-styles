@@ -60,5 +60,17 @@
 .b40 {
   background-color: var(--b40);
 }
-.b10 {
+
+.d10 {
+  background: var(--d10);
+}
+.d12 {
+  background-color: var(--d20);
+}
+.d30 {
+  background-color: var(--d30);
+}
+.d40 {
+    background-color: var(--d40);
+
 }
