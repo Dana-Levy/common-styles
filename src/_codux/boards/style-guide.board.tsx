@@ -27,7 +27,7 @@ export default createBoard({
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div className={StyleGuide_board_module.FontFamilyContainer}>
                         <span className={StyleGuide_board_module.FontFamilyAa}>Aa</span>
-                        <span className={Classnames('pNormal')}>Open Sans</span>
+                        <span className={Classnames('pNormal')}>DM Sans</span>
                     </div>
                 </div>
             </div>
