@@ -428,8 +428,8 @@ export default createBoard({
                     <div>
                         <div
                             className={Classnames(
-                                StyleGuide_board_module.colorContainer,
                                 'shadow100',
+                                StyleGuide_board_module.shadowContainer,
                             )}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>shadow100</div>
@@ -437,8 +437,8 @@ export default createBoard({
                     <div>
                         <div
                             className={Classnames(
-                                StyleGuide_board_module.colorContainer,
                                 'shadow200',
+                                StyleGuide_board_module.shadowContainer,
                             )}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>shadow200</div>
@@ -446,8 +446,8 @@ export default createBoard({
                     <div>
                         <div
                             className={Classnames(
-                                StyleGuide_board_module.colorContainer,
                                 'shadow300',
+                                StyleGuide_board_module.shadowContainer,
                             )}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>shadow300</div>
