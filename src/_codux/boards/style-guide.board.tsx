@@ -411,6 +411,49 @@ export default createBoard({
                     </div>
                 </div>
             </div>
+            <div className={StyleGuide_board_module.SectionContainer}>
+                <div className={StyleGuide_board_module.SectionTitle}>
+                    <img src={SectionSvg} />
+                    <h2>Shadows</h2>
+                </div>
+                <p className={StyleGuide_board_module.SectionSubtitle}>
+                    Shadows help create the illusion of depth and dimension in a flat, 2D digital
+                    space. By simulating how light interacts with objects in the real world, shadows
+                    visually separate elements, define their shapes, and show their relative
+                    positions.
+                </p>
+            </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'shadow100',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>shadow100</div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'shadow200',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>shadow200</div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.colorContainer,
+                                'shadow300',
+                            )}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>shadow300</div>
+                    </div>
+                </div>
+            </div>
         </div>
     ),
     isSnippet: true,
