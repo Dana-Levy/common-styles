@@ -75,6 +75,7 @@
   display: flex;
   gap: 16px;
   margin-top: 16px;
+  flex-wrap: wrap;
 }
 .grid {
   display: grid;
@@ -118,4 +119,3 @@
   border-radius: 8px;
   margin-bottom: 6px;
 }
-
