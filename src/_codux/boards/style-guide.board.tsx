@@ -75,9 +75,9 @@ export default createBoard({
                             Heading 28
                         </h2>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            h2Normal<br />
+                            h2Normal
+                            <br />
                             DM Sans, 400
-                            
                         </div>
                     </div>
                     <div>
@@ -104,7 +104,9 @@ export default createBoard({
                             Paragraph 12
                         </p>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            pNormal<br />DM Sans, 400
+                            pNormal
+                            <br />
+                            DM Sans, 400
                         </div>
                     </div>
                     <div>
@@ -112,7 +114,9 @@ export default createBoard({
                             Paragraph 12
                         </p>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            pLight<br />DM Sans, 300
+                            pLight
+                            <br />
+                            DM Sans, 300
                         </div>
                     </div>
                 </div>
@@ -123,7 +127,9 @@ export default createBoard({
                             Detail Text 11
                         </p>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            smallBold<br />DM Sans, 700
+                            smallBold
+                            <br />
+                            DM Sans, 700
                         </div>
                     </div>
                     <div>
@@ -131,7 +137,9 @@ export default createBoard({
                             Detail Text 11
                         </p>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            smallNormal<br />DM Sans, 400
+                            smallNormal
+                            <br />
+                            DM Sans, 400
                         </div>
                     </div>
                     <div>
@@ -139,14 +147,16 @@ export default createBoard({
                             Detail Text 11
                         </p>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            smallLight<br />DM Sans, 300
+                            smallLight
+                            <br />
+                            DM Sans, 300
                         </div>
                     </div>
                 </div>
             </div>
             <div className={StyleGuide_board_module.SectionContainer}>
                 <div className={StyleGuide_board_module.SectionTitle}>
-                    <img src="/src/assets/react.svg" />
+                    <img src={SectionSvg} />
                     <h2>Colors</h2>
                 </div>
                 <p className={StyleGuide_board_module.SectionSubtitle}>
