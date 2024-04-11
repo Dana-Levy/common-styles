@@ -8,7 +8,6 @@
 
 .h1Light {
   font: var(--h1Light);
-
 }
 .h1Bold {
   font: var(--h1Bold);
@@ -60,4 +59,62 @@
 }
 .b40 {
   background-color: var(--b40);
+}
+
+.d10 {
+  background: var(--d10);
+}
+.d12 {
+  background-color: var(--d20);
+}
+.d30 {
+  background-color: var(--d30);
+}
+.d40 {
+  background-color: var(--d40);
+}
+.w10 {
+  background-color: var(--w10);
+}
+.w20 {
+  background-color: var(--w20);
+}
+.w30 {
+  background-color: var(--w30);
+}
+.w40 {
+  background-color: var(--w40);
+}
+.w50 {
+  background-color: var(--w50);
+}
+.e10 {
+  background-color: var(--e10);
+}
+.e20 {
+  background-color: var(--e20);
+}
+.e30 {
+  background-color: var(--e30);
+}
+.e40 {
+  background-color: var(--e40);
+}
+.e50 {
+  background-color: var(--e50);
+}
+.s10 {
+  background-color: var(--s10);
+}
+.s20 {
+  background-color: var(--s20);
+}
+.s30 {
+  background-color: var(--s30);
+}
+.s40 {
+  background-color: var(--s40);
+}
+.s50 {
+  background-color: var(--s50);
 }

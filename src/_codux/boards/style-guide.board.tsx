@@ -142,13 +142,270 @@ export default createBoard({
                     </div>
                 </div>
             </div>
+            <div className={StyleGuide_board_module.SectionContainer}>
+                <div className={StyleGuide_board_module.SectionTitle}>
+                    <img src="/src/assets/react.svg" />
+                    <h2>Colors</h2>
+                </div>
+                <p className={StyleGuide_board_module.SectionSubtitle}>
+                    Colors are a powerful tool in design for communicating meaning and influencing
+                    user perception. Here&apos;s colors can contribute to the success of your design
+                    by conveying specific
+                </p>
+            </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Primary / Blue</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b10
+                            <br />
+                            #F0F5FF
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b20')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b20
+                            <br />
+                            #2F6FED
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b30')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b30
+                            <br />
+                            #1D5BD6
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'b40')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            b40
+                            <br />
+                            #1E4EAE{' '}
+                        </div>
+                    </div>
+                </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Secondary / Dark</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'd10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            d10
+                            <br />
+                            #E0E0E8
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'd12')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            d20
+                            <br /> #AFAFB6
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'd30')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            d30
+                            <br />
+                            #808087
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'd40')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            d40
+                            <br />
+                            #2B2B31{' '}
+                        </div>
+                    </div>
+                </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Warning </h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w10
+                            <br />
+                            #FEF4E9
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w20')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w20
+                            <br />
+                            #FCD0A0
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w30')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w30
+                            <br />
+                            ##FABF7A
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w40')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w40
+                            <br />
+                            #2B2B31{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'w50')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            w40
+                            <br />
+                            #AA661E{' '}
+                        </div>
+                    </div>
+                </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Error</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'e10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            e10
+                            <br />
+                            #feecec
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'e20')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            e20
+                            <br />
+                            #fab2af
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'e30')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            e30
+                            <br />
+                            #f26561
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'e40')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            e40
+                            <br />
+                            #ec6d69{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 'e50')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            e40
+                            <br />
+                            #a5302c{' '}
+                        </div>
+                    </div>
+                </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Success</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's10')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s0
+                            <br />
+                            #E8F8F1
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's20')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s20
+                            <br />
+                            #9FE1C2
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's30')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s30
+                            <br />
+                            #76D6AB
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's40')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s40
+                            <br />
+                            #76D6AB{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(StyleGuide_board_module.colorContainer, 's50')}
+                        />
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            s50
+                            <br />
+                            #0F804E{' '}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     ),
     isSnippet: true,
     environmentProps: {
         windowWidth: 1014,
         canvasWidth: 1021,
-        canvasHeight: 1656,
+        canvasHeight: 2005.3333333333333,
         windowHeight: 1659,
     },
 });
