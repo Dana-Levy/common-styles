@@ -39,25 +39,25 @@ export default createBoard({
                         <h1 className={Classnames('h1Bold', StyleGuide_board_module.margin)}>
                             Heading 42
                         </h1>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            h1Bold - DM Sans, 700
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            h1Bold <br /> DM Sans, 700
+                        </div>
                     </div>
                     <div>
                         <h1 className={Classnames('h1Normal', StyleGuide_board_module.margin)}>
                             Heading 42
                         </h1>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            h1Normal - DM Sans, 400
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            h1Normal <br /> DM Sans, 400
+                        </div>
                     </div>
                     <div>
                         <h1 className={Classnames('h1Light', StyleGuide_board_module.margin)}>
                             Heading 42
                         </h1>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            h1Light - DM Sans, 300
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            h1Light <br /> DM Sans, 300
+                        </div>
                     </div>
                 </div>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Subheading / h2</h2>
@@ -66,25 +66,27 @@ export default createBoard({
                         <h2 className={Classnames('h2Bold', StyleGuide_board_module.margin)}>
                             Heading 28
                         </h2>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            h2Bold - DM Sans, 700
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            h2Bold <br /> DM Sans, 700
+                        </div>
                     </div>
                     <div>
                         <h2 className={Classnames('h2Normal', StyleGuide_board_module.margin)}>
                             Heading 28
                         </h2>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            h2Normal - DM Sans, 400
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            h2Normal<br />
+                            DM Sans, 400
+                            
+                        </div>
                     </div>
                     <div>
                         <h2 className={Classnames('h2Light', StyleGuide_board_module.margin)}>
                             Heading 28
                         </h2>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            h2Light - DM Sans, 300
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            h2Light <br /> DM Sans, 300
+                        </div>
                     </div>
                 </div>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Body / p</h2>
@@ -93,25 +95,25 @@ export default createBoard({
                         <p className={Classnames('pBold', StyleGuide_board_module.margin)}>
                             Paragraph 12
                         </p>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            pBold - DM Sans, 700
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            pBold <br /> DM Sans, 700
+                        </div>
                     </div>
                     <div>
                         <p className={Classnames('pNormal', StyleGuide_board_module.margin)}>
                             Paragraph 12
                         </p>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            pNormal - DM Sans, 400
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            pNormal<br />DM Sans, 400
+                        </div>
                     </div>
                     <div>
                         <p className={Classnames('pLight', StyleGuide_board_module.margin)}>
                             Paragraph 12
                         </p>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            pLight - DM Sans, 300
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            pLight<br />DM Sans, 300
+                        </div>
                     </div>
                 </div>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Smaller Text</h2>
@@ -120,25 +122,25 @@ export default createBoard({
                         <p className={Classnames('smallBold', StyleGuide_board_module.margin)}>
                             Detail Text 11
                         </p>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            smallBold - DM Sans, 700
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            smallBold<br />DM Sans, 700
+                        </div>
                     </div>
                     <div>
                         <p className={Classnames('smallNormal', StyleGuide_board_module.margin)}>
                             Detail Text 11
                         </p>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            smallNormal - DM Sans, 400
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            smallNormal<br />DM Sans, 400
+                        </div>
                     </div>
                     <div>
                         <p className={Classnames('smallLight', StyleGuide_board_module.margin)}>
                             Detail Text 11
                         </p>
-                        <span className={StyleGuide_board_module.subtitleValue}>
-                            smallLight - DM Sans, 300
-                        </span>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            smallLight<br />DM Sans, 300
+                        </div>
                     </div>
                 </div>
             </div>
