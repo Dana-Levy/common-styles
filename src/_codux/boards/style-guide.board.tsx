@@ -561,7 +561,7 @@ export default createBoard({
                         </div>
                     </div>
                 </div>
-                <h2 className={StyleGuide_board_module.subSectionTitle}>Margin</h2>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Padding</h2>
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div>
                         <div className={StyleGuide_board_module.spacingContainer}>

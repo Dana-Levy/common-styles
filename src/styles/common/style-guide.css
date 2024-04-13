@@ -119,11 +119,11 @@
   background-color: var(--s50);
 }
 .spacing2 {
-  margin: var(--spacing2);
+  padding: var(--spacing2);
 }
 
 .spacing4 {
-  margin: var(--spacing4);
+  padding: var(--spacing4);
 }
 .spacing6 {
   margin: var(--spacing6);
