@@ -411,13 +411,302 @@ export default createBoard({
                     </div>
                 </div>
             </div>
+            <div className={StyleGuide_board_module.SectionContainer}>
+                <div className={StyleGuide_board_module.SectionTitle}>
+                    <img src={SectionSvg} />
+                    <h2>Spacing</h2>
+                </div>
+                <p className={StyleGuide_board_module.SectionSubtitle}>
+                    Colors are a powerful tool in design for communicating meaning and influencing
+                    user perception. Here&apos;s colors can contribute to the success of your design
+                    by conveying specific
+                </p>
+            </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Margin</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing2',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing2
+                            <br />
+                            2px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing4',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing6',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing8',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing12',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing16',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing24',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing32',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing40',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Margin</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing2',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing2
+                            <br />
+                            2px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing4',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing6',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    'spacing8',
+                                    StyleGuide_board_module.spacingBox,
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing12',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing16',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing24',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing32',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.spacingContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'spacing40',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            spacing12
+                            <br />
+                            12px{' '}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     ),
     isSnippet: true,
     environmentProps: {
         windowWidth: 1014,
         canvasWidth: 1021,
-        canvasHeight: 2005.3333333333333,
+        canvasHeight: 1576,
         windowHeight: 1659,
     },
 });

@@ -118,3 +118,34 @@
 .s50 {
   background-color: var(--s50);
 }
+.spacing2 {
+  margin: var(--spacing2);
+}
+
+.spacing4 {
+  margin: var(--spacing4);
+}
+.spacing6 {
+  margin: var(--spacing6);
+}
+
+.spacing8 {
+  margin: var(--spacing8);
+}
+
+.spacing12 {
+  margin: var(--spacing12);
+}
+.spacing16 {
+  margin: var(--spacing16);
+}
+
+.spacing24 {
+  margin: var(--spacing24);
+}
+.spacing32 {
+  margin: var(--spacing32);
+}
+.spacing40 {
+  margin: var(--spacing40);
+}
