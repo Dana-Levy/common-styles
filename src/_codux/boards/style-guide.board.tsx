@@ -435,7 +435,7 @@ export default createBoard({
                             />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing2
+                            margin2
                             <br />
                             2px{' '}
                         </div>
@@ -444,45 +444,15 @@ export default createBoard({
                         <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
-                                    'spacing4',
+                                    'margin4',
                                     StyleGuide_board_module.spacingBox,
                                 )}
                             />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            margin4
                             <br />
-                            12px{' '}
-                        </div>
-                    </div>
-                    <div>
-                        <div className={StyleGuide_board_module.marginContainer}>
-                            <div
-                                className={Classnames(
-                                    'spacing6',
-                                    StyleGuide_board_module.spacingBox,
-                                )}
-                            />
-                        </div>
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
-                            <br />
-                            12px{' '}
-                        </div>
-                    </div>
-                    <div>
-                        <div className={StyleGuide_board_module.marginContainer}>
-                            <div
-                                className={Classnames(
-                                    'spacing8',
-                                    StyleGuide_board_module.spacingBox,
-                                )}
-                            />
-                        </div>
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
-                            <br />
-                            12px{' '}
+                            4px{' '}
                         </div>
                     </div>
                     <div>
@@ -490,12 +460,27 @@ export default createBoard({
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
-                                    'spacing12',
+                                    'margin6',
                                 )}
                             />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            margin6
+                            <br />
+                            6px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div className={StyleGuide_board_module.marginContainer}>
+                            <div
+                                className={Classnames(
+                                    StyleGuide_board_module.spacingBox,
+                                    'margin12',
+                                )}
+                            />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            margin12
                             <br />
                             12px{' '}
                         </div>
@@ -505,14 +490,14 @@ export default createBoard({
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
-                                    'spacing16',
+                                    'margin16',
                                 )}
                             />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            margin16
                             <br />
-                            12px{' '}
+                            16px{' '}
                         </div>
                     </div>
                     <div>
@@ -520,14 +505,14 @@ export default createBoard({
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
-                                    'spacing24',
+                                    'margin24',
                                 )}
                             />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            margin24
                             <br />
-                            12px{' '}
+                            24px{' '}
                         </div>
                     </div>
                     <div>
@@ -535,14 +520,14 @@ export default createBoard({
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
-                                    'spacing32',
+                                    'margin32',
                                 )}
                             />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            margin32
                             <br />
-                            12px{' '}
+                            32px{' '}
                         </div>
                     </div>
                     <div>
@@ -550,12 +535,12 @@ export default createBoard({
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
-                                    'spacing40',
+                                    'margin40',
                                 )}
                             />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            margin40
                             <br />
                             12px{' '}
                         </div>
