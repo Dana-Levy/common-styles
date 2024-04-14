@@ -118,3 +118,19 @@
 .s50 {
   background-color: var(--s50);
 }
+
+.shadow100 {
+  box-shadow:
+    0px 4px 12px -4px rgba(22, 34, 51, 0.12),
+    0px 16px 32px 0px rgba(22, 34, 51, 0.16);
+}
+
+.shadow200 {
+  box-shadow:
+    0px 4px 8px -4px rgba(22, 34, 51, 0.08),
+    0px 16px 24px 0px rgba(22, 34, 51, 0.08);
+}
+
+.shadow300 {
+  box-shadow: 0 3px 16px -4px rgba(22, 34, 51, 0.2);
+}
