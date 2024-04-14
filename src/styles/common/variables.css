@@ -46,13 +46,13 @@
   --s50: #0f804e;
   --s60: #932927;
 
-  --spacing2: 2px;
-  --spacing4: 4px;
-  --spacing6: 6px;
-  --spacing8: 8px;
-  --spacing12: 12px;
-  --spacing16: 16px;
-  --spacing24: 24px;
-  --spacing32: 32px;
-  --spacing40: 40px;
+  --size2: 2px;
+  --size4: 4px;
+  --size6: 6px;
+  --size8: 8px;
+  --size12: 12px;
+  --size16: 16px;
+  --size24: 24px;
+  --size32: 32px;
+  --size40: 40px;
 }

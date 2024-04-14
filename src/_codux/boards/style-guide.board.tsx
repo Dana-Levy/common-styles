@@ -426,11 +426,11 @@ export default createBoard({
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Margin</h2>
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
-                                    'spacing2',
                                     StyleGuide_board_module.spacingBox,
+                                    'margin2',
                                 )}
                             />
                         </div>
@@ -441,7 +441,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     'spacing4',
@@ -456,7 +456,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     'spacing6',
@@ -471,7 +471,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     'spacing8',
@@ -486,7 +486,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
@@ -501,7 +501,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
@@ -516,7 +516,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
@@ -531,7 +531,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
@@ -546,7 +546,7 @@ export default createBoard({
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
+                        <div className={StyleGuide_board_module.marginContainer}>
                             <div
                                 className={Classnames(
                                     StyleGuide_board_module.spacingBox,
@@ -564,136 +564,136 @@ export default createBoard({
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Padding</h2>
                 <div className={StyleGuide_board_module.FlexContainer}>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    'spacing2',
-                                    StyleGuide_board_module.spacingBox,
-                                )}
-                            />
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding2',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing2
+                            padding2
                             <br />
                             2px{' '}
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    'spacing4',
-                                    StyleGuide_board_module.spacingBox,
-                                )}
-                            />
+                        <div
+                            className={Classnames(
+                                'padding4',
+                                StyleGuide_board_module.paddingContainer,
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            padding4
+                            <br />
+                            4px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding6',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            padding6
+                            <br />
+                            6px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding8',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            padding8
+                            <br />
+                            8px{' '}
+                        </div>
+                    </div>
+                    <div>
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding12',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
+                        </div>
+                        <div className={StyleGuide_board_module.subtitleValue}>
+                            padding12
                             <br />
                             12px{' '}
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    'spacing6',
-                                    StyleGuide_board_module.spacingBox,
-                                )}
-                            />
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding16',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            padding16
                             <br />
-                            12px{' '}
+                            16px{' '}
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    'spacing8',
-                                    StyleGuide_board_module.spacingBox,
-                                )}
-                            />
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding24',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            padding24
                             <br />
-                            12px{' '}
+                            24px{' '}
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    StyleGuide_board_module.spacingBox,
-                                    'spacing12',
-                                )}
-                            />
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding32',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            padding32
                             <br />
-                            12px{' '}
+                            32px{' '}
                         </div>
                     </div>
                     <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    StyleGuide_board_module.spacingBox,
-                                    'spacing16',
-                                )}
-                            />
+                        <div
+                            className={Classnames(
+                                StyleGuide_board_module.paddingContainer,
+                                'padding40',
+                            )}
+                        >
+                            <div className={StyleGuide_board_module.spacingBox} />
                         </div>
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
-                            <br />
-                            12px{' '}
-                        </div>
-                    </div>
-                    <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    StyleGuide_board_module.spacingBox,
-                                    'spacing24',
-                                )}
-                            />
-                        </div>
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
-                            <br />
-                            12px{' '}
-                        </div>
-                    </div>
-                    <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    StyleGuide_board_module.spacingBox,
-                                    'spacing32',
-                                )}
-                            />
-                        </div>
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
-                            <br />
-                            12px{' '}
-                        </div>
-                    </div>
-                    <div>
-                        <div className={StyleGuide_board_module.spacingContainer}>
-                            <div
-                                className={Classnames(
-                                    StyleGuide_board_module.spacingBox,
-                                    'spacing40',
-                                )}
-                            />
-                        </div>
-                        <div className={StyleGuide_board_module.subtitleValue}>
-                            spacing12
+                            padding40
                             <br />
                             12px{' '}
                         </div>
