@@ -542,7 +542,7 @@ export default createBoard({
                         <div className={StyleGuide_board_module.subtitleValue}>
                             margin40
                             <br />
-                            12px{' '}
+                            40px{' '}
                         </div>
                     </div>
                 </div>
