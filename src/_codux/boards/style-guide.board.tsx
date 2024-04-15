@@ -417,9 +417,9 @@ export default createBoard({
                     <h2>Spacing</h2>
                 </div>
                 <p className={StyleGuide_board_module.SectionSubtitle}>
-                    Colors are a powerful tool in design for communicating meaning and influencing
-                    user perception. Here&apos;s colors can contribute to the success of your design
-                    by conveying specific
+                    Spacing is a crucial element in design systems, as it dictates the negative
+                    space or &quot;white space&quot; between UI components. This space plays a
+                    significant role in visual Hierarchy, Aesthetics and Balance.
                 </p>
             </div>
             <div className={StyleGuide_board_module.subsectionContainer}>
