@@ -1,5 +1,4 @@
 :root {
-
   --h1Normal: normal 400 42px / normal DM Sans, sans-serif;
   --h1Light: normal 300 42px / normal DM Sans, sans-serif;
   --h1Bold: normal 700 42px / normal DM Sans, sans-serif;
@@ -40,10 +39,20 @@
   --e50: #a5302c;
   --e60: #932927;
 
-  --s10: #E8F8F1;
-  --s20: #9FE1C2;
-  --s30: #76D6AB;
-  --s40: #76D6AB;
-  --s50: #0F804E;
+  --s10: #e8f8f1;
+  --s20: #9fe1c2;
+  --s30: #76d6ab;
+  --s40: #76d6ab;
+  --s50: #0f804e;
   --s60: #932927;
+
+  --size2: 2px;
+  --size4: 4px;
+  --size6: 6px;
+  --size8: 8px;
+  --size12: 12px;
+  --size16: 16px;
+  --size24: 24px;
+  --size32: 32px;
+  --size40: 40px;
 }
