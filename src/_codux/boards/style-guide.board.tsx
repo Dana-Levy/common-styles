@@ -351,7 +351,7 @@ export default createBoard({
                             className={Classnames(StyleGuide_board_module.colorContainer, 'e50')}
                         />
                         <div className={StyleGuide_board_module.subtitleValue}>
-                            e40
+                            e50
                             <br />
                             #a5302c{' '}
                         </div>
